@@ -2,3 +2,54 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0 auto;
+}
+
+.img-container {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(CV-kuva-2022_light.jpg);
+
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.nav-section {
+    background-color: #94550D;
+}
+
+.hero-section {
+    background-color: #431594;
+}
+
+.hero-img {
+    display: block;
+    background-image: url(CV-kuva-2022_light.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.skills-section {
+
+}
+
+.projects-section {
+    background-color: #E08B2B;
+}
+
+.contact-section {
+    background-color: #431594;
+}
+
+.footer-section {
+    background-color: #94550D;
+}
