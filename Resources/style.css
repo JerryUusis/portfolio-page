@@ -4,7 +4,15 @@
 
 body {
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
 }
+
+input {
+    max-width: 290px;
+    align-self: center;
+    margin-bottom: 1em;
+}
+
 
 .img-container {
     display: block;
@@ -24,10 +32,14 @@ body {
 
 .nav-section {
     background-color: #94550D;
+    color: #fff;
+    padding: 1em 0;
 }
 
 .hero-section {
     background-color: #431594;
+    color: #fff;
+    padding: 2em 0;
 }
 
 .hero-img {
@@ -39,17 +51,37 @@ body {
 }
 
 .skills-section {
-
+    padding: 2em 0;
 }
 
-.projects-section {
+.projects-section {    
+    padding: 2em 0;
     background-color: #E08B2B;
+    color: #fff;
 }
 
 .contact-section {
+    padding: 2em 0;
     background-color: #431594;
 }
 
+.contact-form {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    text-align: center;
+}
+
+.btn {
+    max-width: 290px;
+    align-self: center;
+}
+
+
 .footer-section {
+    color: #E08B2B;
     background-color: #94550D;
+    padding: 1em 0;
 }
