@@ -28,7 +28,10 @@ input {
 .container {
     width: 85%;
     margin: 0 auto;
+    max-width: 800px;
 }
+
+
 
 .nav-section {
     background-color: #94550D;
@@ -84,4 +87,26 @@ input {
     color: #E08B2B;
     background-color: #94550D;
     padding: 1em 0;
+}
+
+@media (min-width: 800px) {
+
+    
+    .row {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .col {
+        width: 50%;
+    }
+
+    .hero-text-container {
+        align-self: center;
+    }
+
+    .img-container {
+        max-width: 400px;
+        height: 650px;
+    }
 }
