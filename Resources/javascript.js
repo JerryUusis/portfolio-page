@@ -1,19 +1,15 @@
-var chartPlayer = document.getElementById("chart");
-var hangMan = document.getElementById("hangman");
-var gotQuiz = document.getElementById("got-quiz");
-var vacationGuide = document.getElementById("vacation-guide");
+// Get all the li elements with the "project-item" class
 
-var closeIcon = document.querySelector(".close");
+const projectItems = document.querySelectorAll(".project-item");
 
+// Attach event listener to each li element
 
+projectItems.forEach(function(item) {
+    item.addEventListener("click", function() {
+        // Find the corresponding info card
+        const infoCard = item.nextElementSibling;
 
-function openModal() {
-    document.querySelector(".modal-bg").style.display = "flex";
-}
-
-function closeModal() {
-    document.querySelector(".modal-bg").style.display = "none";
-}
-
-chartPlayer.addEventListener("click", openModal);
-closeIcon.addEventListener("click", closeModal);
+        // Toggle the display property of the info card
+        infoCard.style.display = (infoCard.style.display === "none") ? "block" : "none";
+    });
+})
